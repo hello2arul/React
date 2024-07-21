@@ -35,9 +35,19 @@ root.render(myElement);
 
 ### To create a new react app:
 - Install nodejs - https://nodejs.org/en
-- npx create-react-app app-name
+- `npx create-react-app app-name`
 
 ### Useful commands
 - npm start
 
 ### Props
+- Used to pass values to a react component
+- Eg)
+    ```
+    function Component(props) {
+        console.log(props.name);
+    }
+    <body>
+        <Component name="test"/>
+    </body>
+    ``` 

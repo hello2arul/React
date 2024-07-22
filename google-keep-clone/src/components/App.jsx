@@ -7,7 +7,7 @@ function App() {
     return (
         <div>
           <Header />
-          <Note />
+          <Note title="test" content="test"/>
           <Footer />
         </div>
     );

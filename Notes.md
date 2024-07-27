@@ -51,3 +51,23 @@ root.render(myElement);
         <Component name="test"/>
     </body>
     ``` 
+
+### Hooks
+- React Hooks are functions that let you use state and other React features in functional components. 
+- Eg)
+```
+useState:
+--------
+import React, { useState } from 'react';
+
+function Counter() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You've clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+```
